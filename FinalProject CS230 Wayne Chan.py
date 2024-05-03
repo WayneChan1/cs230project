@@ -19,7 +19,7 @@ import calendar
 # [ST4] Page design features (Sidebar)
 st.set_page_config(page_title="Massachusetts Crash Reports", page_icon="😱", layout="wide", initial_sidebar_state="expanded")
 
-df = pd.read_csv('/Users/waynechan/Library/CloudStorage/OneDrive-BentleyUniversity/Cs230/Code/Final Project/2017_Crashes_10000_sample.csv')
+df = pd.read_csv('2017_Crashes_10000_sample.csv')
 
 # [DA1] Cleaning or manipulating data/ Lambda
 # [DA9] Adding a new column to a DataFrame
